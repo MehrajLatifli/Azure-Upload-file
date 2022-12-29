@@ -117,8 +117,8 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddAuthorization();
 builder.Services.AddAuthentication();
+builder.Services.AddAuthorization();
 
 builder.Services.AddTransient<IInfoFileService, InfoFileManager>();
 builder.Services.AddTransient<IInfoFileDAL, EF_InfoFileDAL>();

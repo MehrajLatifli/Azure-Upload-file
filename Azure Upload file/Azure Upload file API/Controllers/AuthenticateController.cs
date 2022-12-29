@@ -14,6 +14,7 @@ namespace Azure_Upload_file_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+
     public class AuthenticateController : Controller
     {
         private readonly UserManager<CustomUser> _userManager;
@@ -178,7 +179,5 @@ namespace Azure_Upload_file_API.Controllers
 
             return Ok(list);
         }
-
-
     }
 }
