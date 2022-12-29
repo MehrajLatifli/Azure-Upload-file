@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "storage2": {
+      "type": "storage",
+      "connectionId": "AjSdj+b8KIiNe9Tt6Uwi6153NzCTinWDorqBEi+YxluF5Rx6Vhw+0aXdVUQmt:3Vv0RGY1akLjri+AStW+u5UA==",
+      "dynamicId": null
+    }
+  }
+}

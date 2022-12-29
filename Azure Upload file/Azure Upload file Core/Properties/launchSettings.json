@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Azure Upload file Core": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:57232;http://localhost:57237"
+    }
+  }
+}
